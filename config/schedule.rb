@@ -1,3 +1,3 @@
-every 10.seconds do
-  puts 'Hello Cap!'
+every 1.minute do
+  command "echo 'Hello Cap!'"
 end
